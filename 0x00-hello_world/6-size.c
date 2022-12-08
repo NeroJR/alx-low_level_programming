@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * Main - Shows sizes of various data types
+ * Return 0
+ */
+
 
 int main(void)
 {
