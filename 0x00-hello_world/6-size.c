@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Shows sizes of various data types
- * Return 0
+ * main - Shows sizes of various data types
+ *
+ * Return: 0
  */
 
 
