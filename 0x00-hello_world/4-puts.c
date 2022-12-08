@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Prints to the standard output
  *
  * Return: 0
