@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *This is a funntion that 
- *main: assigns a number to a variable
- *      and prints the last digit
- *      and states whether it is greater than 5, less than 6, or 0
+ *This is a funntion that
+ *main - assigns a number to a variable
+ *       and prints the last digit
+ *       and states whether it is greater than 5, less than 6, or 0
  *
  *Return: 0
  *
