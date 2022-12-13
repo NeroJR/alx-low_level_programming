@@ -4,16 +4,13 @@
 
 /**
  *main: assigns a number to a variable
- *      and prints the last digit 
+ *      and prints the last digit
+ *      and states whether it is greater than 5, less than 6, or 0
  *
  *Return: 0
  *
  */
 
-
-
-
-  
 int main(void)
 {
 	int n;
@@ -23,7 +20,7 @@ int main(void)
 
 	if ((n % 10) > 5)
 	{
-		printf("Last digit of %d is %d and is greather than 5\n",
+		printf("Last digit of %d is %d and is greater than 5\n",
 			n, n % 10);
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
