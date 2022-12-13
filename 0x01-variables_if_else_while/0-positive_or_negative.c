@@ -3,20 +3,20 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
- * style doc for function main goes there
- * main: Assigns a random number to a variable
- * 	States whether it is positive or negative
+ *main - assigns a number to a variable
+ *       and states whether it is +ve or -ve
  *
- * Return: 0
+ *
+ *Return: 0
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
+	
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
