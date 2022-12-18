@@ -28,7 +28,7 @@ void print_times_table(int n)
 				k = i * j;
 
 				if (k <= 99)
-					_putchar(',');
+					_putchar(' ');
 				if (k <= 9)
 					_putchar(' ');
 
