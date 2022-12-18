@@ -20,7 +20,7 @@ int main(void)
 		if (rn_sum > 4000000)
 			break;
 
-		if (rn_sum % 2 == 0)
+		if ((rn_sum % 2) == 0)
 			sum = sum + rn_sum;
 
 		i = j;
