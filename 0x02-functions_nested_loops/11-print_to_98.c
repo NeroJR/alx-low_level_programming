@@ -4,7 +4,7 @@
 /**
  *print_to_98 - prints numbers to 98
  *
- *@n - parameter passed to function
+ *@n: parameter passed to function
  *
  *Return: 0
  */
