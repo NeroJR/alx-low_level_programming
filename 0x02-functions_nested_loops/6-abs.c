@@ -3,6 +3,7 @@
 /**
  *_abs - returns the absolute value of a number
  *
+ *@x: parameter passed to function
  *Return: 0
  */
 
