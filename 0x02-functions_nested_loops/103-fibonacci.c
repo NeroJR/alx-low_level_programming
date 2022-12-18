@@ -26,7 +26,7 @@ int main(void)
 		i = j;
 		j = rn_sum;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
