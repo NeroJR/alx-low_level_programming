@@ -13,9 +13,9 @@ int print_last_digit(int n)
 
 	if (n % 10 == 0)
 		x = 0;
-	else if (n >= 0 && n < 10)
+	else if (n > 0 && n < 10)
 		x = n;
-	else if (n < 0 || n > 10)
+	else
 		x = n % 10;
 
 	return (x);
