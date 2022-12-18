@@ -10,21 +10,18 @@ int main(void)
 {
 	unsigned long i = 0;
 	unsigned long j = 1;
-	unsigned long sum;
-	unsigned long rn_sum;
+	unsigned long sum = 0;
+	unsigned long next;
 
-	while (1)
+	while (next < 4000000)
 	{
-		rn_sum = i + j;
-
-		if (rn_sum > 4000000)
-			break;
-
-		if ((rn_sum % 2) == 0)
-			sum = sum + rn_sum;
-
+		next = i + j;
 		i = j;
-		j = rn_sum;
+		j = next;
+
+		if ((next % 2) == 0)
+			sum += next;
+
 	}
 	printf("%ld\n", sum);
 
