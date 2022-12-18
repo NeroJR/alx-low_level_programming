@@ -3,6 +3,7 @@
 /**
  *_islower - checks for lowercase character
  *
+ *@c: parameter passed to function
  *Return: 0
  */
 
