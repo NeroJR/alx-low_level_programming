@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	unsigned long int f1 = 0, f2 = 1, b1 = 0, b2 = 2;
+	unsigned long int f1 = 0, f2 = 0, b1 = 1, b2 = 2;
 	unsigned long int h1, h2, h3;
 	int count;
 
