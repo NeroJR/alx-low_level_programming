@@ -4,6 +4,7 @@
  **_strcpy - final question
  *@dest: parameter one
  *@src: parameter two
+ *Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
