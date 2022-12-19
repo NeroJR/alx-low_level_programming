@@ -2,7 +2,7 @@
 
 /**
  *reset_to_98 - sets int to 98
- *@*n: parameter
+ *@n: parameter
  *Return: 0
  */
 
