@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_diagonal - prints diagonals 
+ *print_diagonal - prints diagonals
  *@n: parameter passed to function
  *Return: 0
  */
