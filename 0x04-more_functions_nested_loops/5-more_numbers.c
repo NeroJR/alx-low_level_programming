@@ -8,15 +8,38 @@
 void more_numbers(void)
 {
 	int i;
-	int count;
+	int count = 0;
+	int changer;
+	int id = 0;
 
-	for (count = 1; count < 11; count++)
+	while (count < 10)
 	{
-		for (i = 0; i < 15; i++)
+		i = 0;
+		for (i = 0; i <= 14; i++)
 		{
-			_putchar(i + '0');
+			changer = i;
+			if (i < 10)
+			{
+				changer = i;
+			}
+			else
+			{
+				changer = 1;
+			}
+			_putchar(changer + '0');
+
+			if (i > 9)
+			{
+				_putchar(id + '0');
+				id++;
+			}
 		}
 		_putchar('\n');
+
+		if (i == 15)
+		{
+			id = 0;
+		}
+		count++;
 	}
-	_putchar('\n');
 }
