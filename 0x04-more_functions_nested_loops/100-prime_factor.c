@@ -1,38 +1,22 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
- *main - main function
- *
+ *main - prime factors
  *Return: 0
  */
 
 int main(void)
 {
-	int a, b, isPrime;
-	long int n;
+	int c;
+	long n = 612852475143;
 
-	n = 612852475143;
-
-	printf("Prime factors: \n");
-
-	for (a = 2; a <= n; a++)
+	for (c = (int) sqrt(n); c > 2; c++)
 	{
-		if (n % a == 0)
+		if (n % c == 0)
 		{
-			isPrime=1;
-
-			for (b = 2; b <= a / 2; b++)
-			{
-				if(a % b == 0)
-				{
-					isPrime = 0;
-					break;
-				}
-			}
-			if (isPrime == 1)
-			{
-				printf("%d, ", a);
-			}
+			printf("%d\n", c);
+			break;
 		}
 	}
 	return (0);

@@ -1,0 +1,39 @@
+include <stdio.h>
+
+/**
+ *main - main function
+ *
+ *Return: 0
+ */
+
+int main(void)
+{
+	int a, b, isPrime;
+	long int n;
+
+	n = 612852475143;
+
+	printf("Prime factors: \n");
+
+	for (a = 2; a <= n; a++)
+	{
+		if (n % a == 0)
+		{
+			isPrime=1;
+
+			for (b = 2; b <= a / 2; b++)
+			{
+				if(a % b == 0)
+				{
+					isPrime = 0;
+					break;
+				}
+			}
+			if (isPrime == 1)
+			{
+				printf("%d, ", a);
+			}
+		}
+	}
+	return (0);
+}
