@@ -7,7 +7,7 @@
  *		  and returns NULL if fails
  *@size: number of elements
  *@c: char to initialize
- *return: pointer to memory address
+ *Return: pointer to memory addresss
  */
 
 char *create_array(unsigned int size, char c)
