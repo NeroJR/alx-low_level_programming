@@ -20,7 +20,7 @@ char *argstostr(int ac, char **av)
 
 	for (arg = 0; arg < ac; arg++)
 	{
-		for (byte = 0; av[arg][byte]; byte++J)
+		for (byte = 0; av[arg][byte]; byte++)
 			size++;
 	}
 
