@@ -7,7 +7,7 @@
  *Return: pointer to duplicated string
  */
 
-char *_strdup(char str)
+char *_strdup(char *str)
 {
 	char *dup_str;
 	int i, j = 0, len = 0;
@@ -15,8 +15,8 @@ char *_strdup(char str)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; str[i]; i++
-		size++;
+	for (i = 0; str[i]; i++)
+		len++;
 
 	dup_str = malloc(len * sizeof(char));
 
