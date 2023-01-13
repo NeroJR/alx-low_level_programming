@@ -5,7 +5,7 @@
  *free_grid - frees the space occupied by 2D array
  *@grid: space occupied by malloc
  *@height: height of grid
- *Return: 0
+ *Return: nothing
  */
 
 void free_grid(int **grid, int height)
@@ -16,6 +16,4 @@ void free_grid(int **grid, int height)
 		free(grid[i]);
 
 	free(grid);
-
-	return (0);
 }
