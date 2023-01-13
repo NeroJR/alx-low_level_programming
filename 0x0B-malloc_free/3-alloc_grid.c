@@ -5,7 +5,7 @@
  *alloc_grid - pointer to a 2D array of ints
  *@width: parameter passed to fn
  *@height: paramter passed to fn
- *@Return: pointer to array
+ *Return: pointer to array
  */
 
 int **alloc_grid(int width, int height)
@@ -21,7 +21,7 @@ int **alloc_grid(int width, int height)
 	if (pt == NULL)
 	{
 		free(pt);
-		return(NULL);
+		return (NULL);
 	}
 
 	for (x = 0; x < height; x++)
@@ -37,10 +37,10 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-	
+
 	for (y = 0; y < height; y++)
 	{
-		for (z = 0; z < width; z--)
+		for (z = 0; z < width; z++)
 		{
 			pt[y][z] = 0;
 		}
