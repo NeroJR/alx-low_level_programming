@@ -4,7 +4,7 @@
 
 /**
  *function that creates array of characters and initializes with one
- **create_array - creates array of char and initializes with one
+ *create_array - creates array of char and initializes with one
  *		  and returns NULL if fails
  *@size: number of elements
  *@c: char to initialize
