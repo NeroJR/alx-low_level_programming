@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *print_chessboard - function that prints 
+ *print_chessboard - function that prints
  *@a: parameter 1
  *Return: nothing
  */
