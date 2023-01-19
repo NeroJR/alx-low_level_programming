@@ -22,8 +22,8 @@ int is_prime_number(int n)
 
 /**
  *check_prime - helper function
- *@x: number
- *@y: parameter
+ *@n: number
+ *@i: parameter
  *Return: 1 if prime, 0 if not
  */
 
