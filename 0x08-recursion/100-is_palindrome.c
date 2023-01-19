@@ -32,7 +32,7 @@ int get_length(char *s)
 
 /**
  *pal - checks whether it is palindrome
- *@s - string
+ *@s: string
  *@l: length
  *Return: 1 if palindrome, 0 if not
  */
