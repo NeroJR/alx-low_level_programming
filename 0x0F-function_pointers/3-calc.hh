@@ -2,8 +2,8 @@
 #define CALC_H
 
 /**
- *struct op - Struct op
- *@op: operator
+ *struct op - struct
+ *@op: operator +-/*
  *@f: function
  */
 
