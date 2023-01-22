@@ -11,9 +11,10 @@
 
 int main(int argc, char **argv)
 {
-	int count = 0, total;
+	int total;
 	unsigned int i;
 	char *pt;
+	int count = 0;
 	int coins[] = {25, 10, 5, 2};
 
 	if (argc != 2)
