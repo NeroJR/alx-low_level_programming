@@ -1,38 +1,33 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
- *main - adds +ve numbers
+ *main - add +ve int
  *@argc: size
  *@argv: array
- *Return: 0 if success, 1 if error
+ *Return: 0 if success, 1 if failure
  */
 
-int main(int argc, char **argv)
+int main(int argc, char const **argv)
 {
-	int i, n, sum = 0;
-	char *pt;
+	int i, j, sum = 0;
 
-	if (argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; argv[i]; i++)
+		for (j = 0; argv[1][j] != '\0'; j++)
 		{
-			n = strtol(argv[i], &pt, 10);
-
-			if (!*pt)
-				sum += n;
-
-			else
+			if (isdigit(argv[i][j]) == 0)
 			{
 				printf("Error\n");
-
 				return (1);
 			}
 		}
+
+		sum += atoi(argv[i]);
 	}
 
-	prntf("%d\n", sum);
-
+	printf("%d\n", sum);
 	return (0);
 }
